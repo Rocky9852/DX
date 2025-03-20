@@ -151,7 +151,7 @@ def PlayWrapper(command):
 
                 if invitelink.startswith("https://t.me/+"):
                     invitelink = invitelink.replace(
-                        "https://t.me/+", "https://t.me/joinchat/"
+                        "https://t.me/+", "https://t.me/THE_CUTE_BOY_OP/"
                     )
                 myu = await message.reply_text(_["call_4"].format(app.mention))
                 try:
